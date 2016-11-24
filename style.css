@@ -1,0 +1,19 @@
+html, body {
+    background-color: cornsilk;
+    color: blue;
+    font-size: 16px;
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    html, body {
+        background-color: darkorange;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    html, body {
+        background-color: white;
+        font-size: 24px;
+    }
+}
